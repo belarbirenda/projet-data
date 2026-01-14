@@ -1,0 +1,153 @@
+{
+  "insights": [
+    {
+      "type": "correlation",
+      "title": "Corrélation positive forte",
+      "description": "High_Risk_Index montre une corrélation positive (r=0.02) avec Smoking_Prevalence",
+      "factor": "High_Risk_Index",
+      "outcome": "Smoking_Prevalence",
+      "metric": 0.019456171636320976,
+      "score": 0.019456171636320976,
+      "figure": "/Users/yanisa/projects/data-analytics/images/insight_1.png"
+    },
+    {
+      "type": "correlation",
+      "title": "Corrélation positive forte",
+      "description": "Risk_Index montre une corrélation positive (r=0.02) avec Smoking_Prevalence",
+      "factor": "Risk_Index",
+      "outcome": "Smoking_Prevalence",
+      "metric": 0.017250189965281045,
+      "score": 0.017250189965281045,
+      "figure": "/Users/yanisa/projects/data-analytics/images/insight_2.png"
+    },
+    {
+      "type": "weak_signal",
+      "title": "Signal faible : divergent_trend",
+      "description": "Age_Group=15-19: -6.8% vs global -1.5%",
+      "signal_data": {
+        "type": "divergent_trend",
+        "segment": "15-19",
+        "period": "2020->2021",
+        "change_pct": -6.76,
+        "global_change_pct": -1.5,
+        "divergence_pct": -5.26,
+        "description": "Age_Group=15-19: -6.8% vs global -1.5%"
+      },
+      "score": 0.5,
+      "figure": "/Users/yanisa/projects/data-analytics/images/insight_3.png"
+    },
+    {
+      "type": "weak_signal",
+      "title": "Signal faible : divergent_trend",
+      "description": "Age_Group=15-19: +5.6% vs global -0.9%",
+      "signal_data": {
+        "type": "divergent_trend",
+        "segment": "15-19",
+        "period": "2022->2023",
+        "change_pct": 5.6,
+        "global_change_pct": -0.94,
+        "divergence_pct": 6.53,
+        "description": "Age_Group=15-19: +5.6% vs global -0.9%"
+      },
+      "score": 0.5,
+      "figure": "/Users/yanisa/projects/data-analytics/images/insight_4.png"
+    },
+    {
+      "type": "weak_signal",
+      "title": "Signal faible : divergent_trend",
+      "description": "Age_Group=10-14: +5.4% vs global -1.5%",
+      "signal_data": {
+        "type": "divergent_trend",
+        "segment": "10-14",
+        "period": "2020->2021",
+        "change_pct": 5.45,
+        "global_change_pct": -1.5,
+        "divergence_pct": 6.94,
+        "description": "Age_Group=10-14: +5.4% vs global -1.5%"
+      },
+      "score": 0.5,
+      "figure": "/Users/yanisa/projects/data-analytics/images/insight_5.png"
+    },
+    {
+      "type": "weak_signal",
+      "title": "Signal faible : divergent_trend",
+      "description": "Age_Group=10-14: +3.8% vs global +0.7%",
+      "signal_data": {
+        "type": "divergent_trend",
+        "segment": "10-14",
+        "period": "2023->2024",
+        "change_pct": 3.77,
+        "global_change_pct": 0.67,
+        "divergence_pct": 3.11,
+        "description": "Age_Group=10-14: +3.8% vs global +0.7%"
+      },
+      "score": 0.5,
+      "figure": "/Users/yanisa/projects/data-analytics/images/insight_6.png"
+    },
+    {
+      "type": "weak_signal",
+      "title": "Signal faible : divergent_trend",
+      "description": "Age_Group=40-49: +4.7% vs global +1.1%",
+      "signal_data": {
+        "type": "divergent_trend",
+        "segment": "40-49",
+        "period": "2021->2022",
+        "change_pct": 4.69,
+        "global_change_pct": 1.09,
+        "divergence_pct": 3.6,
+        "description": "Age_Group=40-49: +4.7% vs global +1.1%"
+      },
+      "score": 0.5,
+      "figure": "/Users/yanisa/projects/data-analytics/images/insight_7.png"
+    }
+  ],
+  "weak_signals": [
+    {
+      "type": "divergent_trend",
+      "segment": "15-19",
+      "period": "2020->2021",
+      "change_pct": -6.76,
+      "global_change_pct": -1.5,
+      "divergence_pct": -5.26,
+      "description": "Age_Group=15-19: -6.8% vs global -1.5%"
+    },
+    {
+      "type": "divergent_trend",
+      "segment": "15-19",
+      "period": "2022->2023",
+      "change_pct": 5.6,
+      "global_change_pct": -0.94,
+      "divergence_pct": 6.53,
+      "description": "Age_Group=15-19: +5.6% vs global -0.9%"
+    },
+    {
+      "type": "divergent_trend",
+      "segment": "10-14",
+      "period": "2020->2021",
+      "change_pct": 5.45,
+      "global_change_pct": -1.5,
+      "divergence_pct": 6.94,
+      "description": "Age_Group=10-14: +5.4% vs global -1.5%"
+    },
+    {
+      "type": "divergent_trend",
+      "segment": "10-14",
+      "period": "2023->2024",
+      "change_pct": 3.77,
+      "global_change_pct": 0.67,
+      "divergence_pct": 3.11,
+      "description": "Age_Group=10-14: +3.8% vs global +0.7%"
+    },
+    {
+      "type": "divergent_trend",
+      "segment": "40-49",
+      "period": "2021->2022",
+      "change_pct": 4.69,
+      "global_change_pct": 1.09,
+      "divergence_pct": 3.6,
+      "description": "Age_Group=40-49: +4.7% vs global +1.1%"
+    }
+  ],
+  "n_insights": 7,
+  "n_weak_signals": 5
+}
