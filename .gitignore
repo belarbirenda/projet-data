@@ -46,8 +46,9 @@ env/
 *.xlsx
 *.xls
 
-# But keep the clean dataset if small
+# But keep the clean and final datasets if small
 !dataset_clean.csv
+!dataset_final.csv
 
 # OS
 .DS_Store
